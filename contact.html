@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+           /* *******************  NAVBAR  ************************** */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0 30px 0 30px;
+   background-color: #ffffff;
+    height: 10vh;
+    width: 100%;
+        font-family: sans-serif;
+        z-index: 1;
+        position: fixed;
+  
+}
+.logo h1{
+    font-size: 26px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+.nav_items ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.nav_items li{
+padding: 20px;
+    color: #2c2c2c;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+.nav_items a{
+    text-decoration: none;
+
+}
+.nav_items li:hover{
+    cursor: pointer;
+    color: rgb(63, 98, 211);
+  
+
+}
+        .main{
+            background-color: #090c31;
+              height: 120vh;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+        }
+        .main-container{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+            background-color: #ffffff;
+            height: 80vh;
+            width: 70%;
+            border-radius: 0px 100px  100px 0;
+            
+        }
+.main-container h1{
+    align-self: flex-start;
+    padding: 0px 20px 50px 40px;
+    font-family: sans-serif;
+}
+label{
+    font-size: 19.2;
+    font-family: sans-serif;
+    color: #000000;
+}
+input{
+    margin: 10px;
+    padding: 16px;
+}
+button{
+    background-color: #5853ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 16px;
+    margin: 20px;
+    padding: 10px 40px
+}
+
+
+/* ***********************   footer   ***************** */
+.footer{
+    height: 30vh;
+    width: 100%;
+    padding: 0 20px 0 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.footer-left h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #5853ff;
+    text-transform: uppercase;
+}
+.footer-left p{
+    color: #2c2c2c;
+    font-size: 19.2px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+}
+.footer-right h1{
+    color: #2c2c2c;
+    font-size: 32px;
+    font-family: cursive;
+}
+.footer-right p{
+    align-self: flex-end
+    ;
+    font-size: 16px;
+    color: #0000EE;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+                 <!-- ***********     NAV BAR  *************   -->
+
+                 <div class="nav">
+                    <div class="logo">
+                        <h1>techist</h1>
+                    </div>
+                    <div class="nav_items">
+                        <ul>
+                            <a href="home.html"><li>Home</li></a>
+                            <a href="#who"><li>About</li></a>
+                            <a href="#brand"><li>Brand</li></a>
+                            <a href="contact.html"><li>Contact</li></a>
+                        </ul>
+                    </div>
+                    </div>
+
+    <!-- ************************ contact  ************** -->
+    <div class="main">
+        <div class="main-container">
+            <h1>Contact Us</h1>
+<form action="">
+    <label for="">Name</label>
+    <input type="text" placeholder="Full Name"><br>
+    <label for="">Email</label>
+    <input type="email" placeholder="abc@xyzgmail.com"><br>
+    <label for="">Query</label>
+    <input type="text" placeholder="Your Message ?">
+</form>
+<button>Send</button>
+        </div>
+    </div>
+
+       <!-- ***********************  FOOTER   ******************* -->
+       <div class="footer">
+        <div class="footer-left">
+            <h1>techist</h1>
+            <p>@all right reserved Jaweria Adamjee</p>
+        </div>
+        <div class="footer-right">
+            <h1>Follow us</h1>
+            <p>Linkedin</p>
+            <p style="color: rgb(135, 33, 182);">Github</p>
+            <p>Facebook</p>
+        </div>
+       </div>
+</body>
+</html>
